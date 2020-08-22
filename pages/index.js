@@ -26,7 +26,7 @@ export default function Home() {
             href="posts/info-about-me"
             className={styles.card}
           >
-            <h3>Report you line &rarr;</h3>
+            <h3>Report your line &rarr;</h3>
             <p>
               Notify your position to the 
               <text className={styles.bold}> helicopter rescue core</text>.
