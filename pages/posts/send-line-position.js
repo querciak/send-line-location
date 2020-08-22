@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function SendLinePosition() {
     return (
-        <div className={styles.containersp}>
+        <div className={styles.containergeneral}>
             <Head>
                 <title>Send position</title>
                 <link rel="icon" href="/slacktn-logo.ico"/>
@@ -15,9 +15,9 @@ export default function SendLinePosition() {
                 </h3>
             </header>
 
-            <main className={styles.mainsendposition}>
+            <main className={styles.maingeneral}>
                 <h2>
-                    Fill to report your line.
+                    Fill the form to report your line.
                 </h2>
 
 
