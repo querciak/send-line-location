@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -47,17 +48,30 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+
+          <a
+            href="posts/info-about-me"
+            className={styles.card}
+          >
+            <h3>Info about me &rarr;</h3>
+            <p>
+              Learn more about the developer.
+            </p>
+          </a>
+
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.instagram.com/slackline_trentino/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Offered with {' '}
+          <img src="/heart.ico" alt="heart" className={styles.heart} />
+          by{' '}
+          <img src="/slacktn-logo.ico" alt="Slacktn Logo" className={styles.slacktn} />
         </a>
       </footer>
     </div>
