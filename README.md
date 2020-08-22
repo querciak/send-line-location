@@ -21,3 +21,15 @@ You can start editing the project and see a real-time update in your browser.
 This project is deployed on [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+## Creation of a new Next app
+
+Locally, bootstrap the application with
+
+`npx create-next-app`
+
+Create a repo on GitHub, then
+
+`git remote add origin <github-repo-url>`
+
+and `git push`
