@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>SlackTN ASD</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/slacktn-logo.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -34,7 +34,7 @@ export default function Home() {
           </a>
 
           <a href="posts/info-about-me" className={styles.card}>
-            <h3>Info about us &rarr;</h3>
+            <h3>Info &rarr;</h3>
             <p>
               Learn more about our association.
             </p>
