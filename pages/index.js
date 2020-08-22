@@ -29,7 +29,7 @@ export default function Home() {
             <h3>Report your line &rarr;</h3>
             <p>
               Notify your position to the 
-              <text className={styles.bold}> helicopter rescue core</text>.
+              <text className={styles.bold}> helicopter rescue unit</text>.
             </p>
           </a>
 
