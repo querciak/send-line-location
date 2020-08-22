@@ -49,10 +49,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Offered with {' '}
+          {/* Offered with {' '}
           <img src="/heart.ico" alt="heart" className={styles.heart} />
           by{' '}
-          <img src="/slacktn-logo.ico" alt="Slacktn Logo" className={styles.slacktn} />
+          <img src="/slacktn-logo.ico" alt="Slacktn Logo" className={styles.slacktn} /> */}
+          Developed by{' '}
+          <img src="/slacktn-logo.ico" alt="SlackTN logo" className={styles.slacktn} />
         </a>
       </footer>
     </div>
