@@ -7,13 +7,19 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>SlackTN ASD</title>
-        <link rel="icon" href="/slacktn-logo.ico" />
+        <link rel="icon" href="/slacktn-logo.ico"/>
       </Head>
 
+      <header className={styles.header}>
+        <h3>
+          <a href="/">Home</a>
+        </h3>
+      </header>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://www.instagram.com/slackline_trentino/" className={styles.iglink}> Slackline Trentino</a>
-        </h1>
+        <h4 className={styles.title}>
+          Welcome to<a href="https://www.instagram.com/slackline_trentino/" className={styles.iglink}> Slackline Trentino</a>
+        </h4>
 
         <p className={styles.description}>
           Safety is our first priority!{' '}
@@ -23,7 +29,7 @@ export default function Home() {
         <div className={styles.grid}>
 
           <a
-            href="posts/info-about-me"
+            href="posts/send-line-position"
             className={styles.card}
           >
             <h3>Report your line &rarr;</h3>
@@ -33,7 +39,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="posts/info-about-me" className={styles.card}>
+          <a href="posts/info-about-us" className={styles.card}>
             <h3>Info &rarr;</h3>
             <p>
               Learn more about our association.
