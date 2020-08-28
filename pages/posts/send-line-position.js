@@ -11,7 +11,7 @@ export default function SendLinePosition() {
 
             <header className={styles.header}>
                 <h3>
-                    <a href="/">Home</a>
+                    <a href="/">&larr; Home</a>
                 </h3>
             </header>
 
