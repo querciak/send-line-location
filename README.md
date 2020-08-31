@@ -2,7 +2,10 @@ This is a project to report the location of your highline to the helicopter resc
 
 ## Development
 
-First, clone this repo.
+First, make sure you have `yarn` and `npm`.
+Then clone this repo.
+
+Run `npm install`.
 
 To run the development server:
 
