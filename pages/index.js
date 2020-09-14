@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SlackTN ASD</title>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/slacktn-logo.ico"/>
       </Head>
 
@@ -45,6 +46,15 @@ export default function Home() {
               Learn more about our association.
             </p>
           </a>
+
+          {/* Remove comment below to have the card to go to DEV-team */}
+
+          {/* <a href="posts/dev-team" className={styles.card}>
+            <h3>Dev Team &rarr;</h3>
+            <p>
+              Meet the developer.
+            </p>
+          </a> */}
 
         </div>
       </main>
