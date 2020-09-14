@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
