@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# dependency-check
+/deps-report

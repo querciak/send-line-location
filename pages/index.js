@@ -1,24 +1,25 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SlackTN ASD</title>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/slacktn-logo.ico"/>
       </Head>
 
       <header className={styles.header}>
         <h3>
-          <a href="/">Home</a>
+          <Link href="/"><a>Home</a></Link>
         </h3>
       </header>
 
       <main className={styles.main}>
         <h4 className={styles.title}>
-          Welcome to<a href="https://www.instagram.com/slackline_trentino/" className={styles.iglink}> Slackline Trentino</a>
+          Welcome to <Link href="https://www.slacklinetrentino.com" className={styles.iglink}><a>Slackline Trentino</a></Link>
         </h4>
 
         <p className={styles.description}>
@@ -46,22 +47,25 @@ export default function Home() {
             </p>
           </a>
 
+          {/* Remove comment below to have the card to go to DEV-team */}
+
+          {/* <a href="posts/dev-team" className={styles.card}>
+            <h3>Dev Team &rarr;</h3>
+            <p>
+              Meet the developer.
+            </p>
+          </a> */}
+
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://www.instagram.com/slackline_trentino/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {/* Offered with {' '}
-          <img src="/heart.ico" alt="heart" className={styles.heart} />
-          by{' '}
-          <img src="/slacktn-logo.ico" alt="Slacktn Logo" className={styles.slacktn} /> */}
-          Developed by{' '}
-          <img src="/slacktn-logo.ico" alt="SlackTN logo" className={styles.slacktn} />
-        </a>
+        <Link href="https://github.com/querciak">
+          <a>
+            Developed by{' '}
+            <img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn} />
+          </a>
+        </Link>
       </footer>
     </div>
   )

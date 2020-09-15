@@ -1,7 +1,9 @@
 import styles from '../../styles/Home.module.css'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function SendLinePosition() {
+
     return (
         <div className={styles.containergeneral}>
             <Head>
@@ -11,7 +13,7 @@ export default function SendLinePosition() {
 
             <header className={styles.header}>
                 <h3>
-                    <a href="/">&larr; Home</a>
+                    <Link href="/"><a>&larr; Home</a></Link>
                 </h3>
             </header>
 
@@ -19,16 +21,16 @@ export default function SendLinePosition() {
                 <h2>
                     Fill the form to report your line.
                 </h2>
-
+                
 
 
 
             </main>
 
             <footer className={styles.footer}>
-                <a href="https://www.instagram.com/slackline_trentino/">
-                    Developed by{' '}<img src="/slacktn-logo.ico" alt="SlackTN logo" className={styles.slacktn}/>
-                </a>
+                <Link href="https://github.com/querciak">
+                    <a>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
+                </Link>
             </footer>
 
         </div>
