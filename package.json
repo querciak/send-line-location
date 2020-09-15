@@ -11,5 +11,21 @@
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  }
+  },
+  "description": "This is a project to report the location of your highline to the helicopter rescue unit in Trentino.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/querciak/send-line-location.git"
+  },
+  "author": "Andrea Cappello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/querciak/send-line-location/issues"
+  },
+  "homepage": "https://github.com/querciak/send-line-location#readme"
 }
