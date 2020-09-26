@@ -11,9 +11,9 @@ export default function InfoAboutUs() {
             </Head>
 
             <header className={styles.header}>
-                <h3>
-                    <Link href="/"><a>&larr; Home</a></Link>
-                </h3>
+                <h5>
+                    <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
+                </h5>
             </header>
 
             <main className={styles.maingeneral}>

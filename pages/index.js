@@ -11,12 +11,6 @@ export default function Home(props) {
         <link rel="icon" href="/slacktn-logo.ico"/>
       </Head>
 
-      <header className={styles.header}>
-        <h3>
-          <Link href="/"><a>Home</a></Link>
-        </h3>
-      </header>
-
       <main className={styles.main}>
         <h4 className={styles.title}>
           Welcome to <Link href="https://www.slacklinetrentino.com" className={styles.iglink}><a>Slackline Trentino</a></Link>

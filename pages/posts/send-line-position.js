@@ -1,6 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
+import { Button } from 'reactstrap'
 
 export default function SendLinePosition() {
 
@@ -12,18 +13,108 @@ export default function SendLinePosition() {
             </Head>
 
             <header className={styles.header}>
-                <h3>
-                    <Link href="/"><a>&larr; Home</a></Link>
-                </h3>
+                <h5>
+                    <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
+                </h5>
             </header>
 
             <main className={styles.maingeneral}>
-                <h2>
+                <h2 className={styles.description}>
                     Fill the form to report your line.
                 </h2>
+            
+                {/* <div
+                    className="container-fluid"
+                    style={{ backgroundColor: "#7E57C2", color: "white" }}
+                    >
+                    <div className="container">
+                        <div className="flexbox">
+
+                            <div className="row my-4">
+                            <div className="col-lg-6 mb-4">
+                                <input
+                                type="name"
+                                className="inputBox"
+                                placeholder="Your Name"
+                                />
+                            </div>
+                            <div className="col-lg-6 mb-4">
+                                <input
+                                type="email"
+                                className="inputBox"
+                                placeholder="Your Email"
+                                />
+                            </div>
+                            </div>
+                            <textarea rows = "2" className="inputBox mb-4" placeholder="Your Message" />
+                            <button className="btn btn-light mb-4 py-3">
+                            Submit
+                            </button>
+                        </div>
+                    </div>
+                </div> */}
                 
+                <div className={styles.grid}>
 
+                            <div className={styles.cardsl}>
+                                <h4>Name:</h4>
+                                <input
+                                type="name"
+                                className="inputBox"
+                                placeholder="Your Name"
+                                />
+                            </div>
 
+                            <div className={styles.cardsl}>
+                                <p>Email:</p>
+                                <input
+                                type="email"
+                                className="inputBox"
+                                placeholder="Your Email"
+                                />
+                            </div>
+
+                            <div className={styles.cardsl}>
+
+                                <p>Phone Number:</p>
+
+                                <input
+                                type="text"
+                                placeholder="Add the national prefix"
+                                />
+
+                            </div>
+                            
+                            <div className={styles.cardsl}>
+                                
+                                <p>GPS location:</p>
+                                
+                                <h8>Look it up on any maps service and make sure to select the right spot. Then copy/paste.</h8>
+                                
+                                <input
+                                type="text"
+                                placeholder="anchor pt.1"
+                                />
+                                
+                                <input
+                                type="text"
+                                placeholder="anchor pt.2"
+                                />
+
+                            </div>
+
+                            {/* <textarea className={styles.cardsl} rows = "2" className="inputBox mb-4" placeholder="Additional Information" /> */}
+
+                </div>
+
+                {/* <button className="btn btn-light mb-4 py-3">
+                    Submit
+                </button> */}
+
+                {/* Documentation @ https://react-bootstrap.github.io/components/buttons/ */}
+                <Button variant="primary" size="lg" block>
+                    Submit
+                </Button>
 
             </main>
 

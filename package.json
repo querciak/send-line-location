@@ -8,10 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.5.2",
+    "gray-matter": "4.0.2",
     "next": "9.5.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "gray-matter": "4.0.2"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reactstrap": "^8.6.0"
   },
   "description": "This is a project to report the location of your highline to the helicopter rescue unit in Trentino.",
   "main": "index.js",

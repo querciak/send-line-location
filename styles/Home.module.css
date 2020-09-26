@@ -35,10 +35,22 @@
   width: 25%;
   height: 60px;
   top: 0;
-
+  color: #484848;
   border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+}
+
+.aaheader {
+  color: #484848;
+  text-decoration: none;
+}
+
+.aaheader a:hover,
+.aaheader a:focus,
+.aaheader a:active {
+  text-decoration: none;
 }
 
 .footer {
@@ -108,7 +120,7 @@
   flex-wrap: wrap;
 
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .card {
@@ -119,6 +131,18 @@
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.cardsl {
+  margin: 0.7rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #cdc9c9;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -163,6 +187,14 @@
   border-color: #0e9617;
 }
 
+.cardsl:hover,
+.cardsl:focus,
+.cardsl:active {
+  color: #4b3002;
+  border-color: #0e9617;
+  border: 2px solid #0e9617;
+}
+
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -170,6 +202,11 @@
 
 .card p {
   margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.fildset {
   font-size: 1.25rem;
   line-height: 1.5;
 }
