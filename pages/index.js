@@ -11,12 +11,6 @@ export default function Home(props) {
         <link rel="icon" href="/slacktn-logo.ico"/>
       </Head>
 
-      <header className={styles.header}>
-        <h3>
-          <Link href="/"><a>Home</a></Link>
-        </h3>
-      </header>
-
       <main className={styles.main}>
         <h4 className={styles.title}>
           Welcome to <Link href="https://www.slacklinetrentino.com" className={styles.iglink}><a>Slackline Trentino</a></Link>
@@ -61,7 +55,7 @@ export default function Home(props) {
 
       <footer className={styles.footer}>
         <Link href="https://github.com/querciak">
-          <a>
+          <a className={styles.devlink}>
             Developed by{' '}
             <img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn} />
           </a>

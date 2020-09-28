@@ -11,9 +11,9 @@ export default function InfoAboutUs() {
             </Head>
 
             <header className={styles.header}>
-                <h3>
-                    <Link href="/"><a>&larr; Home</a></Link>
-                </h3>
+                <h5>
+                    <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
+                </h5>
             </header>
 
             <main className={styles.maingeneral}>
@@ -35,7 +35,7 @@ export default function InfoAboutUs() {
 
             <footer className={styles.footer}>
                 <Link href="https://github.com/querciak">
-                    <a>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
+                    <a className={styles.devlink}>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
                 </Link>
             </footer>
 
