@@ -35,7 +35,7 @@ export default function InfoAboutUs() {
 
             <footer className={styles.footer}>
                 <Link href="https://github.com/querciak">
-                    <a>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
+                    <a className={styles.devlink}>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
                 </Link>
             </footer>
 

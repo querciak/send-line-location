@@ -13,9 +13,16 @@ export default function SendLinePosition() {
             </Head>
 
             <header className={styles.header}>
-                <h5>
+                <div>
+                    <nav>
+                        <h5>
+                            <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
+                        </h5>
+                    </nav>
+                </div>
+                {/* <h5>
                     <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
-                </h5>
+                </h5> */}
             </header>
 
             <main className={styles.maingeneral}>
@@ -80,26 +87,54 @@ export default function SendLinePosition() {
 
                                 <input
                                 type="text"
-                                placeholder="Add the national prefix"
+                                placeholder="Add your national prefix"
                                 />
 
                             </div>
                             
                             <div className={styles.cardsl}>
                                 
-                                <p>GPS location:</p>
+                                <div>
+                                    <p>GPS location:</p>
+                                    <p>Look it up on any maps service and make sure to select the right spot. Then copy/paste.</p>
+                                </div>
+
+                                <div>
+                                    <input
+                                    type="text"
+                                    placeholder="anchor pt.1"
+                                    />
+                                    
+                                    <input
+                                    type="text"
+                                    placeholder="anchor pt.2"
+                                    />
+                                </div>
+
+                            </div>
+
+                            <div className={styles.cardsl}>
                                 
-                                <h8>Look it up on any maps service and make sure to select the right spot. Then copy/paste.</h8>
-                                
-                                <input
-                                type="text"
-                                placeholder="anchor pt.1"
-                                />
-                                
-                                <input
-                                type="text"
-                                placeholder="anchor pt.2"
-                                />
+                                <div>
+                                    <p>Duration:</p>
+                                    <p>Tell us for how long you will keep up your line.</p>
+                                </div>
+
+                                <div>
+                                    <a>Start: </a>
+                                    <input
+                                    type="date"
+                                    placeholder="dd/mm/yyyy"
+                                    />
+                                </div>
+
+                                <div>
+                                    <a>End: </a>
+                                    <input
+                                    type="date"
+                                    placeholder="dd/mm/yyyy"
+                                    />
+                                </div>
 
                             </div>
 
@@ -120,7 +155,7 @@ export default function SendLinePosition() {
 
             <footer className={styles.footer}>
                 <Link href="https://github.com/querciak">
-                    <a>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
+                    <a className={styles.devlink}>Developed by{' '}<img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn}/></a>
                 </Link>
             </footer>
 

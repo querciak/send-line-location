@@ -55,7 +55,7 @@ export default function Home(props) {
 
       <footer className={styles.footer}>
         <Link href="https://github.com/querciak">
-          <a>
+          <a className={styles.devlink}>
             Developed by{' '}
             <img src="/slacktn-logo-dev.ico" alt="SlackTN logo" className={styles.slacktn} />
           </a>
