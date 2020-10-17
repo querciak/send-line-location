@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.24",
+    "aws-amplify": "^3.3.4",
     "bootstrap": "^4.5.2",
     "gray-matter": "4.0.2",
-    "next": "9.5.2",
+    "next": "^9.5.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "reactstrap": "^8.6.0"

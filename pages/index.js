@@ -2,8 +2,13 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
+import Amplify, { Auth } from 'aws-amplify';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import awsconfig from '../src/aws-exports';
 
-export default function Home(props) {
+Amplify.configure(awsconfig);
+
+const App = function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -64,3 +69,6 @@ export default function Home(props) {
     </div>
   )
 }
+
+export default withAuthenticator(App);
+//export default App;

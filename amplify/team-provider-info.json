@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sendlinelocation-dev-222136-authRole",
+      "UnauthRoleArn": "arn:aws:iam::566200734498:role/amplify-sendlinelocation-dev-222136-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::566200734498:role/amplify-sendlinelocation-dev-222136-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-sendlinelocation-dev-222136-deployment",
+      "UnauthRoleName": "amplify-sendlinelocation-dev-222136-unauthRole",
+      "StackName": "amplify-sendlinelocation-dev-222136",
+      "StackId": "arn:aws:cloudformation:eu-central-1:566200734498:stack/amplify-sendlinelocation-dev-222136/68346a90-10b6-11eb-9e3a-0ad75412b350",
+      "AmplifyAppId": "d1i8gbjbpj262a"
+    }
+  }
+}

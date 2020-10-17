@@ -14,7 +14,7 @@ export default function SendLinePosition() {
 
             <header className={styles.header}>
                 <div>
-                    <nav>
+                    <nav className={styles.headernav}>
                         <h5>
                             <Link href="/"><a className={styles.aaheader}>&larr; Home</a></Link>
                         </h5>
